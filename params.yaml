@@ -6,11 +6,11 @@ data_split:
 
 train:
   valid_pct: 0.1
-  arch: shufflenet_v2_x2_0
+  arch: ShuffleNet_V2_X0_5
   img_size: 256
   batch_size: 8
   fine_tune_args:
-    epochs: 8
+    epochs: 4
     base_lr: 0.01
 
 evaluate:
