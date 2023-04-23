@@ -6,7 +6,7 @@ data_split:
 
 train:
   valid_pct: 0.1
-  arch: ShuffleNet_V2_X0_5
+  arch: shufflenet_v2_x0_5
   img_size: 256
   batch_size: 8
   fine_tune_args:
